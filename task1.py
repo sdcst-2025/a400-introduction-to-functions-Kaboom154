@@ -9,7 +9,18 @@ Execute the function of the letter they use.
 """
 
 def A():
+    print('Hello')
 
 def B():
+    print('How are you')
 
 def C():
+    print('Hi')
+
+num = input('Enter a number from A to C: ')
+if num in ['A','a']:
+    A()
+if num in ['B','b']:
+    B()
+if num in ['C','c']:
+    C()
